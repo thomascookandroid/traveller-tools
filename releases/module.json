@@ -1,0 +1,15 @@
+{
+  "name": "traveller-tools",
+  "title": "Traveller Tools",
+  "description": "Provides various system automations for Mongoose Traveller 2E for use with twodsix system in Foundry",
+  "author": "Thomas Cook",
+  "version": "0.0.1",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "11",
+  "esmodules": [],
+  "styles": [],
+  "url": "https://github.com/thomascookandroid/traveller-tools/",
+  "download": "",
+  "manifest": "https://github.com/thomascookandroid/traveller-tools/manifest.json"
+}
+

@@ -24,7 +24,7 @@
   ],
   "url": "https://github.com/thomascookandroid/traveller-tools",
   "esmodules": [
-    "scripts/main.js"
+      "scripts/main.js"
   ],
   "languages": [
     {

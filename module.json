@@ -1,7 +1,7 @@
 {
   "id": "traveller-tools",
   "title": "Traveller Tools",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
@@ -24,17 +24,18 @@
   ],
   "url": "https://github.com/thomascookandroid/traveller-tools",
   "scripts": [
-    "scripts/travel-dialog.js"
+    "scripts/main.js"
   ],
   "languages": [
-      {
-      	"lang": "en",
-      	"name": "English",
-      	"path": "languages/en.json"
-      }
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json",
+      "flags": {}
+    }
   ],
   "styles": [
-      "styles/traveller-tools.css"
+    "styles/traveller-tools.css"
   ],
   "packs": [
     {

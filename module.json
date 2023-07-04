@@ -1,0 +1,55 @@
+{
+  "id": "traveller-tools",
+  "title": "Traveller Tools",
+  "version": "0.0.3",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "twodsix",
+        "type": "system"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Thomas Cook",
+      "discord": "Shottymonster",
+      "email": "thomascookandroid@outlook.com",
+      "url": "https://github.com/thomascookandroid/traveller-tools"
+    }
+  ],
+  "url": "https://github.com/thomascookandroid/traveller-tools",
+  "scripts": [
+    "scripts/travel-dialog.js"
+  ],
+  "languages": [
+      {
+      	"lang": "en",
+      	"name": "English",
+      	"path": "languages/en.json"
+      }
+  ],
+  "styles": [
+      "styles/traveller-tools.css"
+  ],
+  "packs": [
+    {
+      "label": "Traveller Roll Tables",
+      "name": "traveller-roll-tables",
+      "type": "RollTable",
+      "system": "twodsix",
+      "path": "packs/traveller-roll-tables"
+    },
+    {
+      "label": "Traveller Macros",
+      "name": "traveller-macros",
+      "type": "Macro",
+      "system": "twodsix",
+      "path": "packs/traveller-macros"
+    }
+  ]
+}

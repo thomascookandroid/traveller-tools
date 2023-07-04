@@ -1,7 +1,7 @@
 {
   "id": "traveller-tools",
   "title": "Traveller Tools",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
@@ -23,7 +23,7 @@
     }
   ],
   "url": "https://github.com/thomascookandroid/traveller-tools",
-  "scripts": [
+  "esmodules": [
     "scripts/main.js"
   ],
   "languages": [
